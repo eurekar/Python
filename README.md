@@ -1,2 +1,2 @@
 # Python
-Learning diary  
+Learning notes 
