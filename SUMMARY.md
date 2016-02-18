@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Preface](introduction2.md)
+* [Preface](Preface.md)
 * [Install Gitbook](install_gitbook.md)
 
