@@ -17,6 +17,11 @@ use windows cmd
 > gitbook -V
 * update
 > gitbook versions: install latest
-> 
+
+
+## Link gitbook and github 
+
+
 
 There seem more issues to be studied, such as the import function of github, the offline use of gitbook. I will study them in the future.
+
