@@ -21,3 +21,8 @@ This file serves as your book's preface, a great place to describe your book's c
 * 合-学习之后总结
 
 小竹：同学们每周会在Github上把笔记和教程提交到当周制定issue，我会尽量把所有提交的笔记和代码都看一遍。
+
+
+## Problems for practice
+
+* Redpackets value assignment 2/20
