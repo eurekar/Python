@@ -8,3 +8,6 @@ https://www.gitbook.com/book/wzzlj/wzzljomooc2py/details
 
 
 http://www.chengweiyang.cn/gitbook/index.html#gitbook-
+
+
+https://www.gitbook.com/book/jeremiahzhang/omooc2py/details
