@@ -3,5 +3,5 @@
 * [Introduction](README.md)
 * [Preface](Preface.md)
 * [Install Gitbook](install_gitbook.md)
-* Install Ipython
+* [Install Ipython](install_ipython.md)
 
