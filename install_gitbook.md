@@ -25,6 +25,7 @@ Use windows cmd (run as admin)
 ## Link gitbook and github 
 
 
+update 2/22/2016: it seems all are ready without the offline use of gitbook. Just follow the 
 
 There seem more issues to be studied, such as the import function of github, the offline use of gitbook. I will study them in the future.
 
