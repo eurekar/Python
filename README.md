@@ -11,3 +11,6 @@ http://www.chengweiyang.cn/gitbook/index.html#gitbook-
 
 
 https://www.gitbook.com/book/jeremiahzhang/omooc2py/details
+
+
+https://www.gitbook.com/book/jeremiahzhang/pybeginner/details
