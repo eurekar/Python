@@ -19,3 +19,7 @@ Make an ipython shortcut in each of your project directories. For example if you
 Set the shortcut's "start in"=the directory of your project. Every time you open the shortcut, the default directory is your project's directory.
 
 * You can use any editor, which is separated from your ipython shell.
+
+
+# Windows Powershell?
+# 
