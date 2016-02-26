@@ -50,7 +50,7 @@ Then type
 
 Then run gitbook install to download and install the plugin.
 
- ```npm install gitbook-plugin-disqus -g```
+    npm install gitbook-plugin-disqus -g
  
  
  ## Install other plugin or theme
@@ -61,15 +61,14 @@ Then run gitbook install to download and install the plugin.
 
 在此主题的基础上添加了目录导航功能，自动抓取h2标签，就是markdown中的##二级标题
 
-安装使用: ```npm install gitbook-plugin-maxiang```
+安装使用:   ```npm install gitbook-plugin-maxiang```
 
 在使用gitbook项目的根路径中book.json, 添加内容如下：
 
-```{
-"plugins": [
-        "maxiang"
-    ]
-}```
- 
+    {
+    "plugins": [
+            "maxiang"
+        ]
+    }
  
  
