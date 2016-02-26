@@ -1,23 +1,38 @@
 # Project 1 简单日记本
 
 
-```# _*_ coding:utf-8 _*_
+## 基本
 
-import sys
+    
+    import sys
 
- # from sys import argv
+    keywords = sys.argv[:]
 
-reload(sys) # 
-sys.setdefaultencoding('utf-8') # default coding
+    print keywords 
+
+    for words in keywords: 
+	    print words, 
+
+## 中文编码
 
 
-print ('中文') # coding does not work
+    # _*_ coding:utf-8 _*_
 
-print ('中文' .encode(sys.stdout.encoding)) # coding works
+    import sys
 
-keywords = sys.argv[:]
+    # from sys import argv
 
-print keywords # coding doesn't work 
+    reload(sys) # 
+    sys.setdefaultencoding('utf-8') # default coding
 
-for words in keywords: 
-	print words, 	#coding works```
+
+    print ('中文') # coding does not work
+
+    print ('中文' .encode(sys.stdout.encoding)) # coding works
+
+    keywords = sys.argv[:]
+
+    print keywords # coding doesn't work 
+
+    for words in keywords: 
+	    print words, 	#coding works
