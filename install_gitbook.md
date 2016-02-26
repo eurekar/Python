@@ -37,14 +37,14 @@ Register at disqus website. Create a new website there with a shortname. Add the
 
 Then type
 
-``` {
+    {
     "plugins": ["disqus"],
     "pluginsConfig": {
         "disqus": {
             "shortName": "XXXXXXX"
+            }
         }
     }
-}```
 
 
 
