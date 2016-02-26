@@ -1,4 +1,4 @@
-# Install Ipython
+# Install Ipython 2/21
 
 Type in the command line: ```python -m pip install ipython```
 
