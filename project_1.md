@@ -1,7 +1,7 @@
 # Project 1 简单日记本
 
 
-## 基本
+## 使用sys模块实现输入
 
     
     import sys
@@ -10,7 +10,7 @@
 
     print keywords 
 
-    for words in keywords: 
+    for words in keywords: # 2nd way of output
 	    print words, 
 
 ## 中文编码
@@ -20,7 +20,7 @@
 
     import sys
 
-    # from sys import argv
+    # from sys import argv 貌似无意义
 
     reload(sys) # 
     sys.setdefaultencoding('utf-8') # default coding
