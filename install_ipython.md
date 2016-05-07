@@ -32,12 +32,18 @@ After installation, use control+b to build python files.
 
 # Setup Python scientific stack
 
-SciPy: python -m pip install scipy
+SciPy: modules for scientific computing
 
-NumPy: python -m pip install numpy
 
-pandas
+> python -m pip install scipy
 
-matplotlib
+NumPy: support for multidimensional arrays
 
-scikit-learn
+
+> python -m pip install numpy
+
+pandas: time series library
+
+matplotlib:plotting library
+
+scikit-learn: machine learning
