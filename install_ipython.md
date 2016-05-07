@@ -28,3 +28,16 @@ Set the shortcut's "start in"=the directory of your project. Every time you open
 http://damnwidget.github.io/anaconda/
 
 After installation, use control+b to build python files.
+
+
+# Setup Python scientific stack
+
+SciPy: python -m pip install scipy
+
+NumPy: python -m pip install numpy
+
+pandas
+
+matplotlib
+
+scikit-learn
