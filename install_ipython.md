@@ -22,4 +22,9 @@ Set the shortcut's "start in"=the directory of your project. Every time you open
 
 
 # Windows Powershell?
-# 
+
+
+# Install Anaconda on Sublime Text 3
+http://damnwidget.github.io/anaconda/
+
+After installation, use control+b to build python files.
