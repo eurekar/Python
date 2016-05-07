@@ -53,7 +53,7 @@ scikit-learn: machine learning
 
 install pandas-datareader
 
-Read end-of-day history from Yahoo Finance 
+Read and save end-of-day history from Yahoo Finance 
 
 > from pandas_datareader.data import DataReader
 > 
@@ -70,7 +70,14 @@ Read end-of-day history from Yahoo Finance
 > print qt_spy.head() 
 > 
 > print qt_spy.tail()
-> qt_spy.to_csv('C:\Users\mih\Documents\Learn_coding') 
+> 
+> qt_spy.to_csv('C:\Users\mih\Documents\Learn_coding\data.csv')  # save data as a csv file.
+
+Read csv file from disk
+
+> import pandas as pd
+> fromDisk=pd.read_csv('C:\Users\mih\Documents\Learn_coding\data.csv')
+> print(fromDisk)
 
 Read end-of-day history from Google Finance
 
