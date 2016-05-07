@@ -47,3 +47,16 @@ pandas: time series library
 matplotlib:plotting library
 
 scikit-learn: machine learning
+
+
+# Read remote data
+
+
+> from pandas_datareader.data import DataReader
+> ticker = 'SPY'
+> source = 'yahoo'
+> start = '01/01/2012'
+> end = '03/22/2014'
+> qt_spy = DataReader(ticker, source, start, end) 
+> print qt_spy.head() 
+> print qt_spy.tail()
