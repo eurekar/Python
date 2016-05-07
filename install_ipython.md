@@ -51,12 +51,43 @@ scikit-learn: machine learning
 
 # Read remote data
 
+install pandas-datareader
+
+Read end-of-day history from Yahoo Finance 
 
 > from pandas_datareader.data import DataReader
+> 
 > ticker = 'SPY'
+> 
 > source = 'yahoo'
+> 
 > start = '01/01/2012'
+> 
 > end = '03/22/2014'
+> 
 > qt_spy = DataReader(ticker, source, start, end) 
+> 
 > print qt_spy.head() 
+> 
 > print qt_spy.tail()
+> qt_spy.to_csv('C:\Users\mih\Documents\Learn_coding') 
+
+Read end-of-day history from Google Finance
+
+> from pandas_datareader.data import DataReader
+> 
+> ticker = 'SPY'
+> 
+> source = 'google'
+> 
+> start = '01/01/2012' 
+> 
+> end = '03/22/2014'
+> 
+> qt = DataReader(ticker, source, start, end)
+> 
+> print qt.head()
+> 
+> print qt.tail()
+
+
