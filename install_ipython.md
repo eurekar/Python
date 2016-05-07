@@ -76,7 +76,9 @@ Read and save end-of-day history from Yahoo Finance
 Read csv file from disk
 
 > import pandas as pd
+> 
 > fromDisk=pd.read_csv('C:\Users\mih\Documents\Learn_coding\data.csv')
+> 
 > print(fromDisk)
 
 Read end-of-day history from Google Finance
