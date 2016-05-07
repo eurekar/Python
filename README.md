@@ -1,5 +1,5 @@
 # Python
-Learning notes 
+Study notes 
 
 02/18/2016
 
