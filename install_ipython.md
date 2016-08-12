@@ -1,102 +1,16 @@
-# Install Ipython 2/21
+# Python
+Study notes 
 
-Type in the command line: ```python -m pip install ipython```
-
-* Not sure how to open it...
-* Enter C:\phtyon27\Script and type ```ipython```
+02/18/2016-5/6/2016
 
 
-# Start using ipython
+https://www.gitbook.com/book/wzzlj/wzzljomooc2py/details
 
 
-[A short intro](http://www.pythonforbeginners.com/basics/ipython-a-short-introduction)
+http://www.chengweiyang.cn/gitbook/index.html#gitbook-
 
 
-* To use ipython for different projects
-
-Make an ipython shortcut in each of your project directories. For example if you have a new project in C:\fake\example\directory, then right click on the shortcut's icon and "Edit Properties."
-
-Set the shortcut's "start in"=the directory of your project. Every time you open the shortcut, the default directory is your project's directory.
-
-* You can use any editor, which is separated from your ipython shell.
+https://www.gitbook.com/book/jeremiahzhang/omooc2py/details
 
 
-# Windows Powershell?
-
-
-# Install Anaconda on Sublime Text 3
-http://damnwidget.github.io/anaconda/
-
-After installation, use control+b to build python files.
-
-
-# Setup Python scientific stack
-
-SciPy: modules for scientific computing
-
-
-> python -m pip install scipy
-
-NumPy: support for multidimensional arrays
-
-
-> python -m pip install numpy
-
-pandas: time series library
-
-matplotlib:plotting library
-
-scikit-learn: machine learning
-
-
-# Read remote data
-
-install pandas-datareader
-
-Read and save end-of-day history from Yahoo Finance 
-
-> from pandas_datareader.data import DataReader
-> 
-> ticker = 'SPY'
-> 
-> source = 'yahoo'
-> 
-> start = '01/01/2012'
-> 
-> end = '03/22/2014'
-> 
-> qt_spy = DataReader(ticker, source, start, end) 
-> 
-> print qt_spy.head() 
-> 
-> print qt_spy.tail()
-> 
-> qt_spy.to_csv('C:\Users\mih\Documents\Learn_coding\data.csv')  # save data as a csv file.
-
-Read csv file from disk
-
-> import pandas as pd
-> 
-> fromDisk=pd.read_csv('C:\Users\mih\Documents\Learn_coding\data.csv')
-> 
-> print(fromDisk)
-
-Read end-of-day history from Google Finance
-
-> from pandas_datareader.data import DataReader
-> 
-> ticker = 'SPY'
-> 
-> source = 'google'
-> 
-> start = '01/01/2012' 
-> 
-> end = '03/22/2014'
-> 
-> qt = DataReader(ticker, source, start, end)
-> 
-> print qt.head()
-> 
-> print qt.tail()
-
-
+https://www.gitbook.com/book/jeremiahzhang/pybeginner/details
