@@ -16,3 +16,11 @@ NOTE: After installing, be sure you have closed and then re-opened the terminal 
 
 # Test Drive
 http://conda.pydata.org/docs/test-drive.html
+
+  View a list of packages ```conda list``` or in Python ```help("modules")
+  
+
+
+# Also
+
+Anaconda Python IDE with Sublime Text 3.
