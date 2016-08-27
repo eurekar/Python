@@ -19,7 +19,9 @@ http://conda.pydata.org/docs/test-drive.html
 
   View a list of packages ```conda list``` or in Python ```help("modules")
   
+# Quandl Data 
 
+$ pip install quandl
 
 # Also
 
