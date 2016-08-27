@@ -36,10 +36,10 @@ To make it convenient to run your Python program, create a .bat batch file for r
 ## Project: Super Stopwatch
 
 
-  #! python2
-  # stopwatch.py - A simple stopwatch program.
+    #! python2
+    # stopwatch.py - A simple stopwatch program.
 
-  import time
+    import time
 
     # Display the program's instructions.
     print('Press ENTER to begin. Afterwards, press ENTER to "click" the stopwatch. Press Ctrl-C to quit.')
