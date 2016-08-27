@@ -24,9 +24,9 @@ To make it convenient to run your Python program, create a .bat batch file for r
     		product = product * i #    	print product
 	return product
 
-startTime = time.time()
-prod = calcProd()
-endTime = time.time()
+  startTime = time.time()
+  prod = calcProd()
+  endTime = time.time()
 
 
 print('The result is %s digits long.' % (len(str(prod))))
