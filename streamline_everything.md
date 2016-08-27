@@ -12,11 +12,12 @@ To make it convenient to run your Python program, create a .bat batch file for r
 
 ## Keeping time
 
+
 **measure how long a piece of code takes to run**
 
-```import time 
+  import time 
 
-def calcProd(): 
+  def calcProd(): 
 	# Calculate the product of the first 100,000 numbers.
 	product = 1
 	for i in range(1,100000):
