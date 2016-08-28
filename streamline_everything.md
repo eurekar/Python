@@ -9,6 +9,32 @@ To make it convenient to run your Python program, create a .bat batch file for r
 
 ```@py.exe C:\path\to\your\pythonScript.py %*```
 
+## Error Handling
+
+You can put the previous divide-by-zero code in *a try clause and have an except clause contain code to handle what happens when this error occurs*.
+
+
+    def spam(divideBy):
+        try:
+            return 42 / divideBy
+        except ZeroDivisionError:
+            print('Error: Invalid argument.')
+
+    print(spam(2))
+    print(spam(12))
+    print(spam(0))
+    print(spam(1))
+    
+When code in a try clause causes an error, the program execution immediately moves to the code in the except clause. After running that code, the execution continues as normal. The output of the previous program is as follows:
+
+
+    21.0
+    3.5
+    Error: Invalid argument.
+    None
+    42.0
+
+
 
 ## Keeping time
 
@@ -34,6 +60,8 @@ To make it convenient to run your Python program, create a .bat batch file for r
     
 
 ## Project: Super Stopwatch
+
+**Track how long each lap lasts between your "enter"s.**
 
 
     #! python2
