@@ -26,3 +26,7 @@ $ pip install quandl
 # Also
 
 Anaconda Python IDE with Sublime Text 3.
+
+# Install IbPy
+
+https://code.google.com/archive/p/ibpy/wikis/GettingStarted.wiki
