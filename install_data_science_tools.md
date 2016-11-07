@@ -1,32 +1,16 @@
-# Python Data Science Tools
+# Python
+Study notes 
+
+02/18/2016-5/6/2016
 
 
-NumPy:support for multidimensional arrays
-SciPy: modules for scientific computing
-pandas: time series library
-matplotlib: plotting library
-scikit-learn: machine learning
+https://www.gitbook.com/book/wzzlj/wzzljomooc2py/details
 
 
-# Install
-Anaconda: A free distribution for the SciPy stack. Supports Linux, Windows and Mac.
-[https://www.continuum.io/downloads](https://www.continuum.io/downloads)
+http://www.chengweiyang.cn/gitbook/index.html#gitbook-
 
-NOTE: After installing, be sure you have closed and then re-opened the terminal window so the changes can take effect
 
-# Test Drive
-http://conda.pydata.org/docs/test-drive.html
+https://www.gitbook.com/book/jeremiahzhang/omooc2py/details
 
-  View a list of packages ```conda list``` or in Python ```help("modules")
-  
-# Quandl Data 
 
-$ pip install quandl
-
-# Also
-
-Anaconda Python IDE with Sublime Text 3.
-
-# Install IbPy
-
-https://code.google.com/archive/p/ibpy/wikis/GettingStarted.wiki
+https://www.gitbook.com/book/jeremiahzhang/pybeginner/details
